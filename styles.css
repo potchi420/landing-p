@@ -98,3 +98,18 @@ img {
 .signup_hero {
     margin-top: 22px;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+}
+
+.info_header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
