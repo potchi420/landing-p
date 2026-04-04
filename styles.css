@@ -144,10 +144,30 @@ img {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 160px;
 }
 
 .signup {
     padding: 150px;
+}
+
+.quote_section {
+    max-width: 800px;
+}
+.quote_text {
+    font-size: 36px;
+    font-style: italic  ;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote_author {
+    font-size: 28px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: right;
 }
