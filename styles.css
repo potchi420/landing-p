@@ -151,10 +151,6 @@ img {
     padding: 160px;
 }
 
-.signup {
-    padding: 150px;
-}
-
 .quote_section {
     max-width: 800px;
 }
@@ -170,4 +166,37 @@ img {
     color: #1f2937;
     font-weight: 900;
     text-align: right;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.signup_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 150px;
+    border-radius: 15px;
+    gap: 310px;
+}
+
+.call_paragraph {
+    font-size: 28px;
+    color: #E5E7EB;
+    font-weight: 900;
+    text-align: left;
+}
+
+.text_block_signup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.signup_btn {
+    border: 2px solid #E5E7EB;
 }
